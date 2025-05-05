@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aluno_Manha\\source\\repos\\CadastroProduto.Beta\\CadastroProduto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF56B2C7-8A00-4303-9EF9-5858A5A74B67}|cadastroproduto\\cadastroproduto.csproj|c:\\users\\aluno_manha\\source\\repos\\cadastroproduto.beta\\cadastroproduto\\cadastroproduto\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF56B2C7-8A00-4303-9EF9-5858A5A74B67}|cadastroproduto\\cadastroproduto.csproj|solutionrelative:cadastroproduto\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF56B2C7-8A00-4303-9EF9-5858A5A74B67}|cadastroproduto\\cadastroproduto.csproj|c:\\users\\aluno_manha\\source\\repos\\cadastroproduto.beta\\cadastroproduto\\cadastroproduto\\telacadastroproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF56B2C7-8A00-4303-9EF9-5858A5A74B67}|cadastroproduto\\cadastroproduto.csproj|solutionrelative:cadastroproduto\\telacadastroproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF56B2C7-8A00-4303-9EF9-5858A5A74B67}|cadastroproduto\\cadastroproduto.csproj|c:\\users\\aluno_manha\\source\\repos\\cadastroproduto.beta\\cadastroproduto\\cadastroproduto\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF56B2C7-8A00-4303-9EF9-5858A5A74B67}|cadastroproduto\\cadastroproduto.csproj|solutionrelative:cadastroproduto\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF56B2C7-8A00-4303-9EF9-5858A5A74B67}|cadastroproduto\\cadastroproduto.csproj|c:\\users\\aluno_manha\\source\\repos\\cadastroproduto.beta\\cadastroproduto\\cadastroproduto\\telacadastroproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF56B2C7-8A00-4303-9EF9-5858A5A74B67}|cadastroproduto\\cadastroproduto.csproj|solutionrelative:cadastroproduto\\telacadastroproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\CadastroProduto.Beta\\CadastroProduto\\cadastroproduto\\Produto.cs",
+              "RelativeDocumentMoniker": "cadastroproduto\\Produto.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\CadastroProduto.Beta\\CadastroProduto\\cadastroproduto\\Produto.cs",
+              "RelativeToolTip": "cadastroproduto\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:58:01.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TelaCadastroProduto.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\CadastroProduto.Beta\\CadastroProduto\\cadastroproduto\\TelaCadastroProduto.cs",
+              "RelativeDocumentMoniker": "cadastroproduto\\TelaCadastroProduto.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\CadastroProduto.Beta\\CadastroProduto\\cadastroproduto\\TelaCadastroProduto.cs",
+              "RelativeToolTip": "cadastroproduto\\TelaCadastroProduto.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA6wEQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:56:50.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TelaCadastroProduto.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\CadastroProduto.Beta\\CadastroProduto\\cadastroproduto\\TelaCadastroProduto.cs",
+              "RelativeDocumentMoniker": "cadastroproduto\\TelaCadastroProduto.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\CadastroProduto.Beta\\CadastroProduto\\cadastroproduto\\TelaCadastroProduto.cs [Projeto]",
+              "RelativeToolTip": "cadastroproduto\\TelaCadastroProduto.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:56:44.339Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\CadastroProduto.Beta\\CadastroProduto\\cadastroproduto\\Usuarios.cs",
+              "RelativeDocumentMoniker": "cadastroproduto\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\CadastroProduto.Beta\\CadastroProduto\\cadastroproduto\\Usuarios.cs",
+              "RelativeToolTip": "cadastroproduto\\Usuarios.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAUwH8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:47:56.346Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

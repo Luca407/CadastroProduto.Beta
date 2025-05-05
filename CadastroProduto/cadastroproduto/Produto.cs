@@ -61,7 +61,8 @@ namespace cadastroproduto
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Erro ao inserir produto:" + ex.Message + MessageBoxButtons.OK + MessageBoxIcon.Warning);
+                MessageBox.Show("Erro ao inserir produto: " + ex.Message, "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
                 throw;
             }
         }
@@ -74,6 +75,7 @@ namespace cadastroproduto
                 {
                     string query = "UPDATE produto SET nome = @nome, preco = @preco, quantidade = @quantidade, categoria = @categoria WHERE id = @id";
                     MySqlCommand comando = new MySqlCommand(query, conexao);
+                    comando.Parameters.AddWithValue("@id", Id);
                     comando.Parameters.AddWithValue("@nome", Nome);
                     comando.Parameters.AddWithValue("@preco", Preco);
                     comando.Parameters.AddWithValue("@quantidade", Quantidade);
@@ -84,7 +86,8 @@ namespace cadastroproduto
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Erro ao editar produto:" + ex.Message + MessageBoxButtons.OK + MessageBoxIcon.Warning);
+                MessageBox.Show("Erro ao editar produto: " + ex.Message, "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
                 throw;
             }
         }
@@ -103,7 +106,8 @@ namespace cadastroproduto
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Erro ao deletar produto:" + ex.Message + MessageBoxButtons.OK + MessageBoxIcon.Warning);
+                MessageBox.Show("Erro ao deletar produto: " + ex.Message, "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
                 throw;
             }
         }

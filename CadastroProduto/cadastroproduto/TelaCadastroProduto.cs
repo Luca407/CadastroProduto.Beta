@@ -55,6 +55,7 @@ namespace cadastroproduto
 
                 Produto pdt = new Produto
                 {
+                    Id = Convert.ToInt32(lblID.Text.Split(':')[1].Trim()),
                     Nome = txtNomeProduto.Text,
                     Categoria = cbCategoria.Text,
                     Preco = (double)Convert.ToDecimal(mtxtPreco.Text),
@@ -65,8 +66,8 @@ namespace cadastroproduto
                 if (pdt.InserirProduto())
                 {
                     MessageBox.Show("Produto cadastrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    ListarTodosProduto(); // Atualiza o grid
-                    LimparCampos();       // Limpa os campos
+                    ListarTodosProduto();
+                    LimparCampos();     
                 }
 
                 else
@@ -102,7 +103,7 @@ namespace cadastroproduto
 
                 Produto pdt = new Produto
                 {
-                    
+                    Id = Convert.ToInt32(lblID.Text.Split(':')[1].Trim()),
                     Nome = txtNomeProduto.Text,
                     Categoria = cbCategoria.Text,
                     Preco = (double)Convert.ToDecimal(mtxtPreco.Text),
@@ -112,8 +113,8 @@ namespace cadastroproduto
                 if (pdt.EditarProduto())
                 {
                     MessageBox.Show("Produto atualizado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    ListarTodosProduto(); // Atualiza o grid
-                    LimparCampos();       // Limpa os campos
+                    ListarTodosProduto();
+                    LimparCampos();      
                 }
 
                 else
@@ -140,7 +141,10 @@ namespace cadastroproduto
 
                     if (confirm == DialogResult.Yes)
                     {
-                         Produto pdt = new Produto();
+                         Produto pdt = new Produto
+                         {
+                              Id = Convert.ToInt32(lblID.Text.Split(':')[1].Trim()),
+                         };
 
                          if (pdt.ExcluirProduto())
                          {
